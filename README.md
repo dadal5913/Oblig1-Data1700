@@ -1,8 +1,8 @@
-Oblig 1
+# Oblig 1
 
 **OsloMet brukernavn:** dadal5913
 **GitHub brukernavn:** dadal5913
-**GitHub repo URL:**
+**GitHub repo URL:** https://github.com/dadal5913/Oblig1-Data1700
 **Fullt navn:** Daniel Pedersen Dalen
 
 Beskrivelse:
