@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kinobillettregistrering</title>
+  </head>
+  <body>
+    <h1>Kjøp kinobillett</h1>
+
+    <form id="ticketForm">
+      <!-- Må velge en film -->
+      <label for="movie">Velg film:</label><br />
+      <select id="movie" required>
+        <option value="">Velg film</option>
+        <option value="Nemo">Avatar</option>
+        <option value="Avatar">Nemo</option>
+        <option value="Titanic">Titanic</option></select
+      ><br />
+
+      <!-- Antall biletter må minumum være 1 -->
+      <label>Antall:</label><br />
+      <input type="number" id="quantity" min="1" required /><br />
+
+      <!-- Fornavn -->
+      <label>Fornavn:</label><br />
+      <input id="firstName" required /><br />
+
+      <!-- Etternavn -->
+      <label>Etternavn:</label><br />
+      <input id="lastName" required /><br />
+
+      <!-- E-post -->
+      <label>E-post:</label><br />
+      <input type="email" id="email" required /><br />
+
+      <!-- Telefonnummer kan kun være tall fra 0-9 som tilsammen er 8 tall -->
+      <label>Telefon:</label><br />
+      <input type="number" id="phone" required pattern="[0-9]{8}" /><br />
+
+      <button>Kjøp billett</button>
+    </form>
+
+    <!-- Knapp for å slette alle billetter -->
+    <button id="deleteAll">Slett alle billettene</button>
+
+    <h2>Alle billetter</h2>
+    <!-- Div for å vise billettlister -->
+    <div id="ticketList"></div>
+
+    <!-- Inkluderer JavaScript-filen -->
+    <script src="Kinobilett.js"></script>
+  </body>
+</html>
