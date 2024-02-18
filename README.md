@@ -1,14 +1,15 @@
-# Kinobillettregistrering
+Oblig 1
 
+**OsloMet brukernavn:** dadal5913
+**GitHub brukernavn:** dadal5913
+**GitHub repo URL:**
+**Fullt navn:** Daniel Pedersen Dalen
+
+Beskrivelse:
+# Kinobillettregistrering
 En JavaScript-applikasjon for å registrere kjøp av kinobilletter.
 
-## Installasjon
-
-1. Klone dette repoet til din lokale maskin.
-2. Åpne html-filen i en nettleser.
-
 ## Bruk
-
 1. Velg en film fra nedtrekksmenyen.
 2. Fyll ut antall billetter, fornavn, etternavn, e-post og telefonnummer.
 3. Trykk på "Kjøp billett" for å legge til billetten.
